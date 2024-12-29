@@ -29,10 +29,13 @@ QUERY = "nitration AND 'mixed acid'"
 
 total_results = get_total_results(API_KEY, QUERY)
 print(f"Total results found: {total_results}")
-    ```
 
-### 2. `fetch_google_scholar_data`: Fetch Google Scholar Data and Save to JSON
+ ```
+
+### 2. `fetch_google_scholar_data`: Fetch Google Scholar Data and Save to JSON**
+
  ```python
+
 from serpapi_scholar import fetch_google_scholar_data
 
 API_KEY = "your-serpapi-api-key"
